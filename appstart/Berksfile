@@ -1,0 +1,12 @@
+site :opscode
+
+cookbook 'apt'
+cookbook 'database'
+cookbook 'devbox', git: 'https://github.com/n0needt0/cookbooks'
+cookbook 'git'   
+cookbook 'hostsfile'
+cookbook 'memcached'
+cookbook 'mongodb'
+cookbook 'nginx'
+cookbook 'nodejs'
+cookbook 'npm'

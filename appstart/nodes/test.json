@@ -1,0 +1,6 @@
+{
+    "run_list": [
+        "role[gui]",
+        "role[test]"
+    ]
+}

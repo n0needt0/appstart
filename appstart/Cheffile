@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'apt'
+cookbook 'database'
+cookbook 'devbox',
+   :git => 'https://github.com/n0needt0/cookbook'
+cookbook 'git'
+cookbook 'hostsfile'
+
+cookbook 'memcached'
+cookbook 'mongodb'
+cookbook 'nginx'
+cookbook 'nodejs'
+cookbook 'npm'

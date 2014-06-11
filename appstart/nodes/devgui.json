@@ -1,0 +1,9 @@
+{
+    "run_list": [
+        "role[gui]",
+        "recipe[devbox::phpstorm]",
+        "recipe[devbox::rabbitvcs]",
+        "recipe[devbox::sublime_text]"
+        
+    ]
+}
